@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(253, 236, 218);
+}
+.container {
+        
+    display: grid;    
+    grid-template-rows: 1fr 8fr;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: 
+    "a a a"
+    "b b b";
+    background-color: #b68935;
+    margin: 200px;
+    padding: 100px;
+    margin-top: 50px;
+    align-content: center;
+}
+.dataInput{
+    
+    display: grid;
+    grid-area: b;
+    grid-gap: 10px;
+    box-shadow: 1px 1px 3px black;
+    border-radius: 5px;
+    background-color: #aaa095;
+    text-align: center;
+    font-family: monospace;
+    font-size: 20px;
+    padding: 30px;
+   
+}
+h1 {
+    text-align: center;
+}
+#head {
+    
+    display: grid;
+    grid-area: a;
+    font-size: 20px;
+    background-color: #fd8e18;
+    box-shadow: 1px 1px 3px black;
+    border-radius: 5px;
+}
